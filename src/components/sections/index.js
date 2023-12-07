@@ -1,0 +1,14 @@
+export { default as BuiltFor } from "./BuiltFor";
+export { default as CreateMultiple } from "./CreateMultiple";
+export { default as CustomizeAssistant } from "./CustomizeAssistant";
+export { default as FAQs } from "./FAQs";
+export { default as FileWizard } from "./FileWizard";
+export { default as Footer } from "./Footer";
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero";
+export { default as MoneyBack } from "./MoneyBack";
+export { default as Regardless } from "./Regardless";
+export { default as SaveYourself } from "./SaveYourself";
+export { default as SayGoodbye } from "./SayGoodbye";
+export { default as Unquestionable } from "./Unquestionable";
+export { default as UploadFiles } from "./UploadFiles";
