@@ -17,14 +17,14 @@ import {
 
 function App() {
   return (
-    <div className="">
+    <div>
+      <Header />
       <BuiltFor />
       <CreateMultiple />
       <CustomizeAssistant />
       <FAQs />
       <FileWizard />
       <Footer />
-      <Header />
       <Hero />
       <MoneyBack />
       <Regardless />
