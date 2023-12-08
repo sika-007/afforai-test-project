@@ -1,7 +1,7 @@
-const ButtonEmpty = ({ children, width }) => {
+const ButtonEmpty = ({ children, width, className }) => {
   return (
     <div
-      className={`px-2 py-1 ${
+      className={`${className} px-2 py-1 ${
         width ? `w-[${width}]` : "w-full"
       } bg-gradient-to-br rounded-lg text-gray-600 bg-gray-100 font-medium border cursor-pointer text-center`}
     >

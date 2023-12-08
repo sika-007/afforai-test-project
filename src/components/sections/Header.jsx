@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed p-0 md:px-8 w-screen md:top-5">
+    <div className="fixed z-20 top-0 p-0 md:px-8 w-screen md:top-5">
       <div className="w-full backdrop-blur-md border-b md:border py-3 px-4 md:rounded-xl">
         <div className="flex justify-between items-center ">
           <a className="flex-1 cursor-pointer" href="https://afforai.com">
