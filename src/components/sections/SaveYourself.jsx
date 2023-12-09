@@ -5,7 +5,9 @@ const SaveYourself = () => {
   return (
     <div className="flex flex-col gap-5 md:gap-8 section-padding text-left md:text-center items-start md:items-center">
       <div className="flex flex-col items-start md:items-center max-w-[600px] gap-5 md:gap-8">
-        <TagPrimary className="w-40">10x your productivity</TagPrimary>
+        <TagPrimary className="whitespace-nowrap">
+          10x your productivity
+        </TagPrimary>
         <h1 className="section-heading">
           Save yourself from stress & streamline your workflow
         </h1>

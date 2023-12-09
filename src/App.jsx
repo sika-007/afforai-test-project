@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <div className="flex flex-col gap-10 md:gap-20">
+    <div className="flex flex-col gap-10 md:gap-32">
       <Header />
       <Hero />
       <SayGoodbye />
@@ -25,13 +25,13 @@ function App() {
       <BuiltFor />
       <CreateMultiple />
       <CustomizeAssistant />
-      <FAQs />
-      <FileWizard />
-      <Footer />
-      <MoneyBack />
       <Regardless />
-      <Unquestionable />
+      <FileWizard />
       <UploadFiles />
+      <FAQs />
+      <MoneyBack />
+      <Unquestionable />
+      <Footer />
     </div>
   );
 }

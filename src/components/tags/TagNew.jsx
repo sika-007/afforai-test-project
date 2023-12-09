@@ -1,7 +1,7 @@
-const TagNew = () => {
+const TagNew = ({ children }) => {
   return (
-    <div className="bg-purple-100 text-violet-600 font-medium rounded-full text-xs px-2">
-      NEW
+    <div className="bg-purple-100 flex items-center text-violet-600 font-medium rounded-full text-xs px-2">
+      {children}
     </div>
   );
 };
