@@ -28,7 +28,7 @@
 }
 
 .section-padding {
-  @apply px-[20px] py-[14px] md:px-[60px] md:py-[24px];
+  @apply px-[20px] py-[14px] md:px-[60px] md:py-[24px] lg:px-[90px] lg:py-[30px];
 }
 
 .card-heading {
