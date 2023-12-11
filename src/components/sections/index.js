@@ -12,3 +12,4 @@ export { default as SaveYourself } from "./SaveYourself";
 export { default as SayGoodbye } from "./SayGoodbye";
 export { default as Unquestionable } from "./Unquestionable";
 export { default as UploadFiles } from "./UploadFiles";
+export { default as Reviews } from "./Reviews";

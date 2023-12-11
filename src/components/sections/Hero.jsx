@@ -16,35 +16,23 @@ const Hero = () => {
         research documents to stacks of dry compliance requirements and extract
         the key findings you need.
       </p>
-      <div className="overflow-hidden w-full flex justify-center">
-        <div className="flex gap-4 w-full justify-center animate-infinite-scroll md:animate-none">
-          <div className="flex gap-4 whitespace-nowrap">
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
-              Summarize Key Findings
-            </AnimatedTag>
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
+      <div className="w-full overflow-hidden flex justify-start md:justify-center">
+        <div className="flex animate-infinite-scroll md:animate-none">
+          <div className="flex whitespace-nowrap">
+            <AnimatedTag className="w-fit">Summarize Key Findings</AnimatedTag>
+            <AnimatedTag className="w-fit">
               Compare Between Documents
             </AnimatedTag>
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
-              Search For Answers
-            </AnimatedTag>
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
-              Ask in Any Language
-            </AnimatedTag>
+            <AnimatedTag className="w-fit">Search For Answers</AnimatedTag>
+            <AnimatedTag className="w-fit">Ask in Any Language</AnimatedTag>
           </div>
-          <div className="flex gap-4 md:hidden shrink-0">
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
-              Summarize Key Findings
-            </AnimatedTag>
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
+          <div className="flex md:hidden whitespace-nowrap">
+            <AnimatedTag className="w-fit">Summarize Key Findings</AnimatedTag>
+            <AnimatedTag className="w-fit">
               Compare Between Documents
             </AnimatedTag>
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
-              Search For Answers
-            </AnimatedTag>
-            <AnimatedTag className="shrink-0 whitespace-nowrap w-fit">
-              Ask in Any Language
-            </AnimatedTag>
+            <AnimatedTag className="w-fit">Search For Answers</AnimatedTag>
+            <AnimatedTag className="w-fit">Ask in Any Language</AnimatedTag>
           </div>
         </div>
       </div>

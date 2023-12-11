@@ -2,16 +2,13 @@ import {
   BuiltFor,
   CreateMultiple,
   CustomizeAssistant,
-  FAQs,
   FileWizard,
-  Footer,
   Header,
   Hero,
-  MoneyBack,
   Regardless,
   SaveYourself,
+  Reviews,
   SayGoodbye,
-  Unquestionable,
   UploadFiles,
 } from "./components/sections";
 
@@ -28,10 +25,7 @@ function App() {
       <Regardless />
       <FileWizard />
       <UploadFiles />
-      <FAQs />
-      <MoneyBack />
-      <Unquestionable />
-      <Footer />
+      <Reviews />
     </div>
   );
 }
